@@ -1,0 +1,14 @@
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\FuncES.exe.config
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\FuncES.XML
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\FuncES.exe
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\FuncES.pdb
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\FSharp.Core.dll
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\NodaTime.dll
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\FSharp.Core.xml
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\NodaTime.xml
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\obj\Debug\FuncES.exe
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\obj\Debug\FuncES.pdb
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\FSharp.Charting.dll
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\FSharp.Charting.pdb
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\bin\Debug\FSharp.Charting.xml
+E:\Tmp\mikhailio-samples\functional-eventsourcing\FuncES\obj\Debug\FuncES.fsproj.FuncES.exe.config

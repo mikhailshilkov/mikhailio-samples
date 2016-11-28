@@ -1,0 +1,6 @@
+E:\Tmp\mikhailio-samples\functional-eventsourcing\StreamDSL\bin\Debug\StreamDSL.exe.config
+E:\Tmp\mikhailio-samples\functional-eventsourcing\StreamDSL\bin\Debug\StreamDSL.exe
+E:\Tmp\mikhailio-samples\functional-eventsourcing\StreamDSL\bin\Debug\StreamDSL.pdb
+E:\Tmp\mikhailio-samples\functional-eventsourcing\StreamDSL\obj\Debug\StreamDSL.csprojResolveAssemblyReference.cache
+E:\Tmp\mikhailio-samples\functional-eventsourcing\StreamDSL\obj\Debug\StreamDSL.exe
+E:\Tmp\mikhailio-samples\functional-eventsourcing\StreamDSL\obj\Debug\StreamDSL.pdb
