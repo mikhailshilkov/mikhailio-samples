@@ -35,25 +35,26 @@ type Matrix2D = int[,]
 
 [<CompilationRepresentation(CompilationRepresentationFlags.ModuleSuffix)>]
 module Matrix2D =
-  let allCells (mx: int[][]) = seq {
-    for x in [0 .. mx.Length - 1] do
-      for y in [0 .. mx.[x].Length - 1] -> x, y
+  let allCells (mx: Matrix2D) = seq {
+    for x in [0 .. Array2D.length1 mx - 1] do
+      for y in [0 .. Array2D.length2 mx - 1] -> x, y
   }
 
-  let neighbours (mx: int[][]) (x,y) =
+  let neighbours (mx: Matrix2D) (x,y) =
     Seq.crossproduct [x-1 .. x+1] [y-1 .. y+1]
-    |> Seq.filter (fun (i, j) -> i >= 0 && j >= 0 && i < mx.Length && j < mx.[i].Length)
-    |> Seq.filter (fun (i, j) -> i <> x || j <> y)    
+    |> Seq.filter (fun (i, j) -> i >= 0 && j >= 0 && i < Array2D.length1 mx && j < Array2D.length2 mx)
+    |> Seq.filter (fun (i, j) -> i <> x || j <> y)
 
 [<EntryPoint>]
 let main argv = 
-  let mat = [| [|1; 1; 0; 0; 0|];
-               [|0; 1; 0; 0; 1|];
-               [|1; 0; 0; 1; 1|];
-               [|0; 0; 0; 0; 0|];
-               [|1; 0; 1; 0; 1|]
-            |]
-  let isNode (x, y) = mat.[x].[y] = 1
+  let mat = array2D
+              [| [|1; 1; 0; 0; 0|];
+                 [|0; 1; 0; 0; 1|];
+                 [|1; 0; 0; 1; 1|];
+                 [|0; 0; 0; 0; 0|];
+                 [|1; 0; 1; 0; 1|]
+              |]
+  let isNode (x, y) = mat.[x, y] = 1
 
   let graph = {
     Nodes = Matrix2D.allCells mat |> Seq.filter isNode
